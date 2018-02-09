@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="team_name_text">24sp</dimen>
+    <dimen name="country_name_text">18sp</dimen>
+    <dimen name="is_national_team_text">14sp</dimen>
+    <dimen name="text_view_margin">6dp</dimen>
+
+    <dimen name="card_view_margin">10dp</dimen>
+    <dimen name="card_view_corner_radius">8dp</dimen>
+    <dimen name="card_view_padding">12dp</dimen>
+
+    <dimen name="image_layout_width">80dp</dimen>
+    <dimen name="image_layout_padding">8dp</dimen>
+</resources>
