@@ -27,7 +27,7 @@ public class TeamsListPresenter extends BasePresenter<TeamsListView> {
     }
 
     @Subscribe
-    public void onTicketListingEvent(TeamsListResponseEvent event) {
+    public void onTeamListResponseEvent(TeamsListResponseEvent event) {
         if (event.getPayload() != null && event.isSuccess()) {
             view.showTeamsList(event.getPayload());
         } else {
