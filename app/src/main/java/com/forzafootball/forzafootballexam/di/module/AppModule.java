@@ -15,7 +15,7 @@ import retrofit2.Retrofit;
 
 /**
  * Application module to provide app instance
- * Created by e.castellanos on 18/01/2018.
+ * @author e.castellanos on 06/02/2018.
  */
 
 @Module

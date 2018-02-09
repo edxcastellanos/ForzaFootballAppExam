@@ -2,7 +2,7 @@ package com.forzafootball.forzafootballexam.events;
 
 /**
  * ResponseEvent for the asynchronous calls to the services
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public abstract class ResponseEvent<T> {

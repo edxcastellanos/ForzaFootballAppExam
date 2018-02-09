@@ -7,7 +7,7 @@ import com.forzafootball.forzafootballexam.mvp.models.Team;
 
 /**
  * Interactor interface to retrieve information from service
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public interface TeamsListInteractor {

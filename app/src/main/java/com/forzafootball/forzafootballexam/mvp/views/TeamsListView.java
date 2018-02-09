@@ -6,7 +6,7 @@ import com.forzafootball.forzafootballexam.mvp.models.Team;
 
 /**
  * View for the TeamsList Fragment
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public interface TeamsListView extends BaseView {

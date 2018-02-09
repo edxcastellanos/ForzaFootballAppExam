@@ -18,7 +18,7 @@ import retrofit2.Retrofit;
 
 /**
  * Implementation of TeamsListInteractor interface
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public class TeamsListInteractorImpl implements TeamsListInteractor {

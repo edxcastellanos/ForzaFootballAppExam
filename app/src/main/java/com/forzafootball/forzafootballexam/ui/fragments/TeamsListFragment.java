@@ -1,5 +1,7 @@
 package com.forzafootball.forzafootballexam.ui.fragments;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import com.forzafootball.forzafootballexam.ForzaFootballExamApp;
@@ -20,11 +22,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import java.util.List;
-
 /**
  * Fragment for the List of teams displayed in a RecyclerView
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public class TeamsListFragment extends Fragment implements TeamsListView {

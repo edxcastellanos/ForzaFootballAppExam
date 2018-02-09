@@ -2,7 +2,7 @@ package com.forzafootball.forzafootballexam.utils;
 
 /**
  * Util class to determine Error Codes
- * Created by e.castellanos on 08/02/2018.
+ * @author e.castellanos on 08/02/2018.
  */
 
 public class ErrorCodeUtils {

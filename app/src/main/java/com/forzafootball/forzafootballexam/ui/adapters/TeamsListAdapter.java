@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 /**
  * Adapter for the Teams List recyclerView
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public class TeamsListAdapter extends RecyclerView.Adapter<TeamsListAdapter.TeamListViewHolder> {

@@ -10,7 +10,7 @@ import com.squareup.otto.Subscribe;
 
 /**
  * Presenter for the TeamsList Fragment
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public class TeamsListPresenter extends BasePresenter<TeamsListView> {

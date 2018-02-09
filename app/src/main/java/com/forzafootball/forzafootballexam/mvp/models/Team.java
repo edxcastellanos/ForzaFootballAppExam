@@ -2,7 +2,7 @@ package com.forzafootball.forzafootballexam.mvp.models;
 
 /**
  * Class used to retrieve Team information from service using GSON
- * Created by e.castellanos on 06/02/2018.
+ * @author e.castellanos on 06/02/2018.
  */
 
 public class Team {

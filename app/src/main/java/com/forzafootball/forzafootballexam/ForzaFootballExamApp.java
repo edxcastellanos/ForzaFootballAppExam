@@ -9,7 +9,7 @@ import android.app.Application;
 
 /**
  * Application class to create dagger AppComponent
- * Created by e.castellanos on 06/02/2018.
+ * @author e.castellanos on 06/02/2018.
  */
 
 public class ForzaFootballExamApp extends Application {

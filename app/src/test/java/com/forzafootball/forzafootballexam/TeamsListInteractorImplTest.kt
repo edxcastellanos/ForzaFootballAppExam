@@ -13,7 +13,7 @@ import kotlin.test.assertEquals
 
 /**
  * Unit Test class in Kotlin to test the correct/incorrect JSON responses from service
- * Created by e.castellanos on 08/02/2018.
+ * @author e.castellanos on 08/02/2018.
  */
 @RunWith(MockitoJUnitRunner::class)
 class TeamsListInteractorImplTest {
@@ -47,7 +47,7 @@ class TeamsListInteractorImplTest {
     }
 
     @Test
-    fun testCorrectParseJSONresponse (){
+    fun testCorrectParseJSONresponse() {
         Mockito.`when`(teamsListInteractor.fetchData())
                 .thenReturn(TeamsListResponseEventMock.mockSuccessResponsePayloadOk())
         val event = teamsListInteractor.fetchData()

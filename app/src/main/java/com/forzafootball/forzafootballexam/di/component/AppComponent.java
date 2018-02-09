@@ -12,7 +12,7 @@ import dagger.Component;
 
 /**
  * This component specifies where we will inject the app dependencies
- * Created by e.castellanos on 06/02/2018.
+ * @author e.castellanos on 06/02/2018.
  */
 
 @Singleton

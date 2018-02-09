@@ -8,8 +8,8 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
- * Created by e.castellanos on 18/01/2018.
  * interface created to retrieve the information from services calls
+ * @author e.castellanos on 06/02/2018.
  */
 
 public interface ForzaFootballRestApi {

@@ -1,11 +1,11 @@
 package com.forzafootball.forzafootballexam.mocks;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.forzafootball.forzafootballexam.mvp.interactors.TeamsListInteractor.TeamsListResponseEvent;
 import com.forzafootball.forzafootballexam.mvp.models.Team;
 import com.forzafootball.forzafootballexam.utils.ErrorCodeUtils;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import okhttp3.MediaType;
 import okhttp3.ResponseBody;
@@ -13,7 +13,7 @@ import retrofit2.Response;
 
 /**
  * Mock Test class for responses from Service
- * Created by e.castellanos on 08/02/2018.
+ * @author e.castellanos on 08/02/2018.
  */
 
 public class TeamsListResponseEventMock {
@@ -44,11 +44,11 @@ public class TeamsListResponseEventMock {
 
     public static TeamsListResponseEvent mockErrorResponse(int errorCode) {
         TeamsListResponseEvent event = new TeamsListResponseEvent();
-        Response<List<Team>> response = Response.error(errorCode, ResponseBody.create(MediaType.parse("application/json"),""));
+        Response<List<Team>> response = Response.error(errorCode,
+                ResponseBody.create(MediaType.parse("application/json"), ""));
 
         event.setException(new Throwable(ErrorCodeUtils.getErrorMessageByErrorCode(response.code())));
         return event;
     }
-
 
 }

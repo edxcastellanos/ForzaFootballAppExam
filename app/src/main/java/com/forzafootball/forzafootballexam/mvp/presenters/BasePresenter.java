@@ -5,15 +5,15 @@ import com.squareup.otto.Bus;
 
 /**
  * Base MVP Presenter
- * Created by e.castellanos on 07/02/2018.
+ * @author e.castellanos on 07/02/2018.
  */
 
 public abstract class BasePresenter<BV extends BaseView> {
-    protected BV view;
+    BV view;
     private final Bus bus;
     private boolean isBusRegistered;
 
-    protected BasePresenter(Bus bus) {
+    BasePresenter(Bus bus) {
         this.bus = bus;
     }
 
@@ -31,9 +31,5 @@ public abstract class BasePresenter<BV extends BaseView> {
             isBusRegistered = false;
         }
         this.view = null;
-    }
-
-    protected boolean isViewAttached() {
-        return view != null;
     }
 }

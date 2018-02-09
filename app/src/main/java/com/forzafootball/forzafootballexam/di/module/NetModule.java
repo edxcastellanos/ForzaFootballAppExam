@@ -16,8 +16,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by e.castellanos on 18/01/2018.
  * Module that injects the OkHttp, GSON and retrofit dependencies
+ * @author e.castellanos on 06/02/2018.
  */
 
 @Module

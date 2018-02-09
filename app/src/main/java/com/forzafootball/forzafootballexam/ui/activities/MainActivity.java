@@ -9,6 +9,12 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+/**
+ * Main Activity for ForzaFootballAppExam app.
+ * @author e.castellanos on 06/02/2018.
+ */
+
+
 public class MainActivity extends AppCompatActivity {
     private static final String TEAM_LIST_FRAGMENT_TAG = "TeamList";
 
